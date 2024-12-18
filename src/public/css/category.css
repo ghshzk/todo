@@ -1,0 +1,131 @@
+.category__alert--success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+    padding:10px 30px;
+}
+
+.category__alert--danger {
+    background-color: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+    padding: 10px 0;
+}
+
+.category__alert--danger ul {
+    margin: 0;
+}
+
+.category__content {
+    margin: 0 auto;
+    max-width: 1230px;
+    padding: 60px 15px;
+}
+
+.category-form {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.category-form__item {
+    width: 70%;
+}
+
+.category-form__item-input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.category-form__button {
+    width: 20%;
+}
+
+.category-form__button-submit {
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.category-table {
+    margin: 30px auto;
+    width: 70%;
+    text-align: left;
+}
+
+
+.category-table__inner {
+    width: 100%;
+}
+
+.category-table__row {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.category-table__header {
+    text-align: left;
+    font-weight: bold;
+    width: 20%;
+    padding: 12px;
+}
+
+.category-table__item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
+
+.update-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.update-form__item {
+    width: 80%;
+    line-height: 50%;
+}
+
+.update-form__item-input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.update-form__button {
+    width: 50px;
+}
+
+.update-form__button-submit {
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.delete-form__button {
+    width: 50px;
+}
+
+.delete-form__button-submit {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+}
